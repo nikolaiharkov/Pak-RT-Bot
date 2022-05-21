@@ -17,5 +17,5 @@ for filename in os.listdir("./cogs"):
         client.load_extension(f"cogs.{filename[:-3]}")
     
 
-token="OTU4NjY4MDc4ODc3NjcxNDU0.YkQrOQ._POv5ggXb0aQJuUjIzUwZPTMZvQ"
+token=""
 client.run(token)
